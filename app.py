@@ -7,4 +7,5 @@ df=pickle.load(open('df.pkl','rb'))
 st.title("Laptop Predictor")
 
 #brand
-company=st.selectbo
+company=st.selectbox('Brand',df['Company'].unique())
+#type of laptop
