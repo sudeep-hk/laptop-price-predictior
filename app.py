@@ -9,3 +9,4 @@ st.title("Laptop Predictor")
 #brand
 company=st.selectbox('Brand',df['Company'].unique())
 #type of laptop
+ram
